@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DepartEmployee</StartupObject>
+    <StartupObject>Programe.AccLoan</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccLoan.cs" />
     <Compile Include="Collection.cs" />
     <Compile Include="DepartEmployee.cs" />
     <Compile Include="Program.cs" />
@@ -53,6 +54,7 @@
     <Compile Include="Programe3.cs" />
     <Compile Include="programe4.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringBuil.cs" />
     <Compile Include="StringClass.cs" />
   </ItemGroup>
   <ItemGroup>
