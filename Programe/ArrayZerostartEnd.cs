@@ -28,6 +28,13 @@ namespace Programe
                   Console.Write(A[i]);
                   Console.Write(" ");
               }
+              Console.WriteLine("end with zero");
+            for (int i = n-1; i >=0; i--)
+            {
+                Console.Write(A[i]);
+                Console.Write(" ");
+            }
+            Console.WriteLine("start with zero");
         }
     }
 }
